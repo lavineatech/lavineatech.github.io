@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #4682B4;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>CSS Layout Float</h2>
+<p>O Talento Tech tem o objetivo de explorar as habilidades de formação em TIC, além de conteúdos de soft skills, fundamentos da computação, inglês técnico, engenharia de software e o desenvolvimento de uma aplicação prática ao final dos cursos..</p>
+
+<header>
+  <h2>Talento Tech</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">London</a></li>
+      <li><a href="#">Paris</a></li>
+      <li><a href="#">Tokyo</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Talento Tech</h1>
+    <p><!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>CSS Layout Float</h2>
+<p>In this example, we have created a header, two columns/boxes and a footer. On smaller screens, the columns will stack on top of each other.</p>
+<p>Resize the browser window to see the responsive effect (you will learn more about this in our next chapter - HTML Responsive.)</p>
+
+<header>
+  <h2>Cities</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">London</a></li>
+      <li><a href="#">Paris</a></li>
+      <li><a href="#">Tokyo</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Talento Tech</h1>
+    <p>O Talento Tech-PR, projeto que ofertará cursos na área de tecnologia da informação e da comunicação para estudantes do ensino médio e superior, por meio da Secretaria de Ciência, Tecnologia e Ensino Superior (Seti). O Talento Tech-PR é realizado pela Secretaria de Estado do Planejamento (SEPL), em conjunto com as Secretarias de Inovação, Modernização e Transformação Digital (SEI), Secretaria da Educação (Seed), Fundação Araucária e Seti. A Universidade Estadual de Ponta Grossa coordenará as atividades por meio do Núcleo de Tecnologia e Educação Aberta e a Distância (Nutead-UEPG), com participação das instituições estaduais de ensino superior públicas do Paraná.. </p>
+    <p>O Governador do Paraná, Carlos Massa Ratinho Junior, declarou que tudo está sendo pensado para que os jovens estudantes contribuam com a economia local. “Nenhum pai ou uma mãe quer ver um filho ir embora da sua cidade, muitas vezes por falta de emprego. Enquanto retemos esta vaga de emprego, o jovem fica perto da família, influencia outros jovens a fazerem parte desse ecossistema e gera impacto na economia local, fazendo a cidade crescer”..</p>
+  </article>
+</section>
+
+<footer>
+  <p>Footer</p>
+</footer>
+
+</body>
+</html>
+
+. </p>
+    <p>O foco inicial do projeto são jovens moradores de 50 municípios com baixos indicadores no Índice Ipardes de Desenvolvimento Municipal (IPDM). A maior parte do investimento, cerca de R$ 62 milhões, será empregada no pagamento de bolsas, nos valores de R$ 1.350,00 a estudantes de Ensino Médio e R$ 1.500,00 para inscritos de Ensino Superior, por meio da Fundação Araucária..</p>
+  </article>
+</section>
+
+<footer>
+  <p>Footer</p>
+</footer>
+
+</body>
+</html>
